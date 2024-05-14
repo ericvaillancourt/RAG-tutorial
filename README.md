@@ -44,11 +44,11 @@ Ensure you have the following installed:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/langchain-rag-tutorial.git
-cd langchain-rag-tutorial
+git clone https://github.com/ericvaillancourt/RAG-tutorial.git
+cd RAG-tutorial
 ```
 
-Navigate to the folder of the part you are interested in and install the dependencies:
+Navigate to the folder of the part you are interested in:
 
 ```bash
 cd "01 - Quickstart"
