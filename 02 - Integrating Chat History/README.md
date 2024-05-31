@@ -10,6 +10,16 @@ In this tutorial, we focus on incorporating chat history into our RAG model to m
 
 In many Q&A applications, facilitating a dynamic, back-and-forth conversation between the user and the system is essential. This requires the application to maintain a "memory" of past interactions, allowing it to reference and integrate previous exchanges into its current processing.
 
+## Series Outline
+
+1. **[Quick Start Guide to LangChain RAG](https://medium.com/@eric_vaillancourt/mastering-langchain-rag-a-comprehensive-tutorial-series-part-1-28faf6257fea)**: Basics of setting up LangChain RAG.
+2. **[Integrating Chat History](https://medium.com/@eric_vaillancourt/mastering-langchain-rag-integrating-chat-history-part-2-4c80eae11b43)**: Incorporate chat history into your RAG model.
+3. **Implementing Streaming Capabilities**: Handle real-time data processing with RAG.
+4. **Returning Sources with Results**: Configure RAG to provide sources along with responses.
+5. **Adding Citations to Your Results**: Include citations in your results for verifiability.
+6. **Putting It All Together**: Build a comprehensive RAG application integrating all components.
+
+
 ## Getting Started
 
 All code examples mentioned in this tutorial can be found in the `02 - Integrating Chat History` folder. To get started, clone this repository and navigate to the relevant folder:
