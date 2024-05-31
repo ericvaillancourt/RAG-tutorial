@@ -6,23 +6,6 @@ Welcome to the second part of our in-depth series on LangChain's Retrieval-Augme
 
 In this tutorial, we focus on incorporating chat history into our RAG model to maintain context and improve the quality of interactions in chat-like conversations. Additionally, we cover how to save chat history to an SQL database using SQLAlchemy, ensuring robust and scalable storage.
 
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-3. [Environment Setup](#environment-setup)
-4. [Code Explanation](#code-explanation)
-   - [Updating the Prompt](#updating-the-prompt)
-   - [Contextualizing Questions](#contextualizing-questions)
-   - [Setting Up the Database](#setting-up-the-database)
-   - [Creating the History-Aware Retriever](#creating-the-history-aware-retriever)
-   - [Building the Q&A Chain](#building-the-qa-chain)
-   - [Managing Chat History](#managing-chat-history)
-   - [Saving and Loading Messages](#saving-and-loading-messages)
-5. [Usage](#usage)
-6. [Conclusion](#conclusion)
-7. [Support](#support)
-
 ## Introduction
 
 In many Q&A applications, facilitating a dynamic, back-and-forth conversation between the user and the system is essential. This requires the application to maintain a "memory" of past interactions, allowing it to reference and integrate previous exchanges into its current processing.
