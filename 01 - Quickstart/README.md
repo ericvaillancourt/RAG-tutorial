@@ -130,10 +130,6 @@ This repository provides the foundational code to get started with LangChain's R
 
 If you find this repository helpful, consider supporting my work by [buying me a coffee](https://www.buymeacoffee.com/evaillancourt).
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Contact
 
 For any questions or suggestions, feel free to contact me at [eric@ericvaillancourt.ca](mailto:eric@ericvaillancourt.ca).
