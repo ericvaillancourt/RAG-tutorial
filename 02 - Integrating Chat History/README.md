@@ -1,5 +1,3 @@
-# README.md
-
 # Mastering LangChain RAG: Integrating Chat History (Part 2)
 
 Welcome to the second part of our in-depth series on LangChain's Retrieval-Augmented Generation (RAG) technology. This repository contains the code examples and explanations for integrating chat history into a RAG-based application. By following this tutorial, you will learn how to maintain context in conversations and improve the interaction quality of your Q&A applications.
