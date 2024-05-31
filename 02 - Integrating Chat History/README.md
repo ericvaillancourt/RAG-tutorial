@@ -91,7 +91,7 @@ In this tutorial, we explored how to enhance the functionality of Q&A applicatio
 
 If you found this tutorial helpful, please consider supporting my work by buying me a coffee or two!
 
-[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ericvaillancourt)
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/evaillancourt)
 
 Thank you for following along, and I look forward to continuing this journey with you in the next parts of our series.
 
