@@ -23,6 +23,14 @@
             overflow-y: scroll;
             white-space: pre-wrap; /* To ensure line breaks are respected */
         }
+        #reformulated {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 10px;
+            height: 100px;
+            overflow-y: scroll;
+            white-space: pre-wrap; /* To ensure line breaks are respected */
+        }
     </style>
 </head>
 <body>
@@ -35,7 +43,10 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-        
+
+        Reformulated Question:
+        <div id="reformulated" class="border rounded p-3"></div>
+
         Answer:
         <div id="output" class="border rounded p-3"></div>
         
@@ -54,8 +65,10 @@
             const question = document.getElementById('question').value;
             const outputDiv = document.getElementById('output');
             const contextDiv = document.getElementById('context');
+            const reformulatedDiv = document.getElementById('reformulated');
             outputDiv.innerHTML = ''; // Clear previous output
             contextDiv.innerHTML = ''; // Clear previous context
+            reformulatedDiv.innerHTML = ''; // Clear previous reformulated question
 
             const url = `/chat_stream/${encodeURIComponent(question)}`;
 
@@ -70,7 +83,13 @@
                             const contextData = data.context.map(item => item.page_content).join('<br><br>');
                             contextDiv.innerHTML = contextData;
                             contextDiv.scrollTop = contextDiv.scrollHeight; // Scroll to bottom
-                        } else if (data.data) {
+                        } 
+                        if (data.reformulated) {
+                            // Append reformulated question to reformulatedDiv
+                            reformulatedDiv.innerHTML += data.reformulated;
+                            reformulatedDiv.scrollTop = reformulatedDiv.scrollHeight; // Scroll to bottom
+                        } 
+                        if (data.data) {
                             // Append regular data to outputDiv
                             outputDiv.innerHTML += data.data;
                             outputDiv.scrollTop = outputDiv.scrollHeight; // Scroll to bottom
