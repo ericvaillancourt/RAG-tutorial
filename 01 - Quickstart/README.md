@@ -10,7 +10,7 @@ This repository is part of a six-article series on LangChain's Retrieval-Augment
 
 1. **[Quick Start Guide to LangChain RAG](https://medium.com/@eric_vaillancourt/mastering-langchain-rag-a-comprehensive-tutorial-series-part-1-28faf6257fea)**: Basics of setting up LangChain RAG.
 2. **[Integrating Chat History](https://medium.com/@eric_vaillancourt/mastering-langchain-rag-integrating-chat-history-part-2-4c80eae11b43)**: Incorporate chat history into your RAG model.
-3. **Implementing Streaming Capabilities**: Handle real-time data processing with RAG.
+3. **[Implementing Streaming Capabilities](https://medium.com/@eric_vaillancourt/mastering-langchain-rag-implementing-streaming-capabilities-part-3-e3f4885ea66a)**: Handle real-time data processing with RAG.
 4. **Returning Sources with Results**: Configure RAG to provide sources along with responses.
 5. **Adding Citations to Your Results**: Include citations in your results for verifiability.
 6. **Putting It All Together**: Build a comprehensive RAG application integrating all components.
